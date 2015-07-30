@@ -1,19 +1,20 @@
-mendix-framework-styling
+mendix-UI-Framework
 ========================
 
 This is the default SCSS framework the Mendix UX team created.
 
-Preview: [Mendix UX](https://mendixux.mendixcloud.com/)
+Preview: [Mendix UI Framework](https://ux.mendix.com/)
 
 ## Features
 
  * Uses Bootstrap framework
  * Uses SCSS partials to help structure the CSS
  * Uses Compass to take advantage of CSS3 mixins (no prefixes needed)
+ * Styled Page Templates that are available in mendix version 5.18
 
 ## How To Use Custom CSS
 
-Want to create styling? Use the file styles\custom.css.
+Want to add or change styling? Use the files located in the custom directory.
 
 ## How To Use SCSS
 
@@ -21,9 +22,11 @@ Want to use SCSS and use all the variables and mixins? Remove the stylesheet url
 
 Mendix Framework uses SASS and Compass, which rely on Ruby. However you can install [Scout](http://mhs.github.io/scout-app/) to run Sass and Compass in a self-contained Ruby environment, letting you effortlessly manage all of your Sass projects with a handful of clicks. 
 
+View the full documentation [Here](https://ux.mendix.com/index.html?profile=desktop#!/MyFirstModule/How_to_customize)
+
 #### Setup Scout
 
-Add your Mendix project in Scout and select the styles\lib folder as the input and output folder for the stylesheet directory. Press play!
+Add your Mendix project in Scout and select the styles folder as the input and output folder for the stylesheet directory. Press play!
 
 #### Edit the SCSS files
 
