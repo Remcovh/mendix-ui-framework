@@ -1,0 +1,96 @@
+/*
+* Mendix Documentation
+* Special styles for presenting components
+*/
+
+
+/*
+* Typography
+*
+* Default Headers. 
+*/
+p {
+	
+}
+label { 
+	
+}
+.mx-title {
+
+}
+h1, .h1, .h1 > * {  } 
+h2, .h2, .h2 > * {  }
+h3, .h3, .h3 > * {  }
+h4, .h4, .h4 > * {  }
+h5, .h5, .h5 > * {  }
+h6, .h6, .h6 > * {  }
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+
+}
+
+
+/*
+* Text Weights
+*
+* 
+*/
+.text-light, .text-light > *, .text-light label { 
+	
+}
+.text-normal, .text-normal > *, .text-normal label  { 
+	
+}
+.text-semibold, .text-semibold > *, .text-semibold label  { 
+	
+}
+.text-bold, .text-bold > *, .text-bold label  { 
+	
+}
+
+
+/*
+* Text Utility Classes
+*
+* Default Headers
+*/
+.text-spacing {
+
+}
+.text-lined {
+
+}
+
+
+/*
+* Text Colors
+*
+* 
+*/
+// Gray shades
+.text-gray-darker 	{ }				
+.text-gray-dark 	{ }
+.text-gray 			{ }
+.text-gray-light	{ }
+.text-gray-primary	{ }
+.text-gray-lighter	{ }	
+	 				 
+// Colors
+.text-default, .text-default:hover	{ }
+.text-primary, .text-primary:hover	{ }
+.text-info, .text-info:hover		{ }
+.text-success, .text-success:hover	{ }
+.text-warning, .text-warning:hover	{ }
+.text-danger, .text-danger:hover	{ }
+
+// Text colors
+.text-black 						{ }
+.text-black-secondary				{ }
+.text-black-disabled 				{ }
+.text-black-hint 					{ }
+
+.text-white 						{ }
+.text-white-secondary				{ }
+.text-white-disabled 				{ }
+.text-white-hint 					{ }

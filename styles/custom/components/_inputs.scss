@@ -1,0 +1,47 @@
+/*
+* Mendix Documentation
+* Special styles for presenting components
+*/
+
+
+/*
+* Inputs
+*
+* Default input fields
+*/
+.form-control {
+
+
+}
+textarea.form-control {
+	
+}
+.form-control:focus {
+
+}
+/* Not editable textarea, textarea will be rendered as a label */
+.mx-textarea label {
+	
+}
+
+/* Input and textarea get properly aligned */
+.form-group div[class*='textBox'] > label,
+.form-group div[class*='textArea'] > label {
+	
+}
+
+
+/*
+* Inputs Readonly
+*
+* Default input fields
+*/
+.readonly-input {
+
+	label { 
+		
+	}
+}
+.readonly-input-alert label {
+	
+}

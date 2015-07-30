@@ -1,0 +1,89 @@
+/*
+* Mendix Documentation
+* Special styles for presenting components
+*/
+
+
+/*
+* Buttons
+*
+* Default Bootstrap and Mendix Buttons
+*/
+
+.btn,
+.mx-button {
+
+    &:hover,
+    &:focus,
+    &:active {
+    }
+}
+
+// Mendix button link
+.mx-link {
+
+}
+
+// Images in buttons
+.btn,
+.mx-button,
+.mx-link {
+    img {
+
+    }
+}
+
+
+/*
+* Buttons Alternate Style
+*
+*
+*/
+.btn-default {
+
+}
+.btn-primary {
+
+}
+.btn-inverse {
+
+}
+.btn-success {
+
+}
+.btn-info {
+
+}
+.btn-warning {
+
+}
+.btn-danger {
+
+}
+.btn-white {
+
+}
+
+/* Buttons appear disabled */
+.btn-disabled {
+
+}
+/* Transparent Buttons */
+.btn-transparent,
+.btn-transparent:hover,
+.btn-transparent:focus {
+
+}
+
+
+/*
+* Buttons Sizes
+*
+* Combined with Bootstrap
+*/
+.btn-lg {
+
+}
+.btn-sm {
+
+}

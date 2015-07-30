@@ -1,0 +1,51 @@
+/*
+* Mendix Page Template Documentation
+* Special styles for presenting Page Template Dashboard
+*/
+.page-dashboard {
+	background-color: $color-layout-bg-secondary;
+	.chartjs-node {
+		margin-top: 30px;
+	}
+}
+
+
+/*
+* Mendix Page Template Documentation
+* Special styles for presenting Page Template Dashboard Default
+*/
+.page-dashboard-default {
+	.card {
+		min-height: 345px;
+	}
+}
+
+
+/*
+* Mendix Page Template Documentation
+* Special styles for presenting Page Template Dashboard My Tasks
+*/
+.page-dashboard-mytasks {
+	.card {
+		min-height: 320px;
+	}
+}
+
+
+/*
+* Mendix Page Template Documentation
+* Special styles for presenting Page Template Dashboard Actions
+*/
+.page-dashboard-actions {
+
+}
+
+
+/*
+* Mendix Page Template Documentation
+* Special styles for presenting Page Template Dashboard Actions Tasks List
+*/
+.page-dashboard-actions-tasks {
+
+}
+

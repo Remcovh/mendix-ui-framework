@@ -1,0 +1,29 @@
+/*
+* Mendix Page Template Documentation
+* Special styles for presenting Page Template Tabs
+*/
+.page-tabs {
+	.tabsfullwidth {
+		background-color: $color-layout-bg-secondary;
+	}
+}
+
+
+/*
+* Mendix Page Template Documentation
+* Special styles for presenting Page Template Tabs Default
+*/
+.page-tabs-default {
+
+}
+
+
+/*
+* Mendix Page Template Documentation
+* Special styles for presenting Page Template Tabs Full Width
+*/
+.page-tabs-fullwidth {
+	.pageheader.pageheader-fullwidth {
+		border-style: none;
+	}
+}

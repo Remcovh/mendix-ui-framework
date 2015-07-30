@@ -1,0 +1,24 @@
+/*
+* Mendix Documentation
+* Special styles for presenting profilecard building block
+*/
+
+
+/*
+* Tabs full width
+*
+* 
+*/
+
+.tabsfullwidth {
+	
+	> .mx-tabcontainer-tabs {
+
+		@media (min-width: $screen-sm) {
+			
+		}
+	}
+	> .mx-tabcontainer-content {
+
+	}
+}

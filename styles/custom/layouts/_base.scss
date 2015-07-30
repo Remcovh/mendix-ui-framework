@@ -1,0 +1,76 @@
+/*
+* Base Layout
+*
+* Default layout settings
+*/
+
+.mx-layoutcontainer-wrapper {
+	
+}
+.mx-layoutcontainer-wrapper.mx-layoutcontainer-nested {
+	
+}
+
+
+/*
+* Regions
+*
+* Used for navigation layouts
+*/
+
+.region-topbar {
+
+	> .mx-layoutcontainer-wrapper {
+		
+	}
+	.toggle-btn {
+
+	}
+	// SSO widgets
+	.navbar-right {
+		.mx-appswitcher-button-placeholder,
+		.mx-profilemenu-button-placeholder {
+
+			iframe {
+
+			}
+		}
+		.mx-profilemenu-button-placeholder {
+			
+		}
+	}
+}
+.region-sidebar {
+	
+	> .mx-layoutcontainer-wrapper {
+		
+	}
+}
+.region-content {
+	> .mx-layoutcontainer-wrapper {
+
+	}
+}
+.layout-sidebar-responsive {
+
+}
+
+/*
+* Navbar Brand
+*
+* Used to style your app brand and logo
+*/
+
+.navbar-brand {
+
+	img {
+
+	}
+	a {
+
+		&:hover,
+		&:focus {
+			
+		}
+	}
+}

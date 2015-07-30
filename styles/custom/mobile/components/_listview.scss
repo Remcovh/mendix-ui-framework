@@ -1,0 +1,47 @@
+/*
+* Mendix Documentation
+* Special styles for presenting mobile components
+*/
+
+
+/*
+* Listview
+*
+* Default Mendix Listview 
+*/
+
+.profile-phone,
+.profile-tablet {
+	.mx-listview {
+		.mx-listview-searchbar {
+
+			/* Reset Search Button - default hidden */
+			button {
+			
+			}
+			/* Search Field */
+			.mx-listview-search-input {
+				input {
+
+				}
+			}
+		}
+		.mx-list {
+			.mx-listview-item {
+				&:first-child {
+
+				}
+				&:last-child {
+
+				}
+			}
+		}
+	}
+	label {
+
+	}
+	/* Listview Load More button */
+	.mx-listview-loadMore {
+
+	}
+}

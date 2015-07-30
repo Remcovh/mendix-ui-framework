@@ -1,0 +1,564 @@
+//== Step 1: 
+//
+//## To get the quickest changes in your theme adjust the basic theme colors defined below.
+
+// Theme Colors
+$color-default: 						#DDD;	
+$color-primary: 						#59C2E6;	
+$color-inverse: 						#3D3F41; 
+$color-info: 							#8AD4ED;
+$color-success: 						#8CC152;
+$color-warning: 						#F6BB42;
+$color-danger: 							#D9534F;
+
+
+// Gray shades
+$gray-darker:							#222;
+$gray-dark:								#333;
+$gray:									#555;
+$gray-light:							#999;
+$gray-primary:							#DDD;
+$gray-lighter:							#eee;
+
+// Basic Text colors
+$color-text-black:			            #000;
+$color-text-white:			            #FFF;
+
+
+
+//== Step 2: 
+//
+//## Settings for some of the most global styles.
+
+//== Background settings
+// Background color for `<body>` also used as utility class.
+$color-layout-bg:						#FFF;
+// Background color for specefic pages like the dashboard also used as utility class.
+$color-layout-bg-secondary:				#EFF4F7;
+
+//== Layout settings
+// Topbar 
+$color-topbar-bg: 						#FFF;
+$minimalheight-topbar:					80px;
+// Sidebar 
+$color-sidebar-bg: 						$color-inverse;
+// Mobile header
+$m-height-header:						44px;
+// Background Color
+$m-color-header-bg: 					#FFF;
+
+
+//== Basic text settings
+// Base font color and size on '<body>'.
+$font-size-base:        				14px;
+$font-color-base:						$color-text-black;
+
+// Button Text Size
+$font-btn-size:							12px;
+$font-btn-transform:					uppercase;
+
+// Global Link Color
+$color-link:            				$color-primary;
+$color-link-hover:      				darken($color-link, 15%);
+
+
+//== Global widget settings
+// The default border color used by all widgets.
+$color-border-default:					$gray-primary;
+
+
+
+//== Step 3: 
+//
+//## Advanced layout options
+
+$default-spacing-top:					35px;
+$default-spacing-right:					40px;
+$default-spacing-bottom:				35px;
+$default-spacing-left:					40px;
+
+$m-default-spacing-top:					10px;
+$m-default-spacing-right:				15px;
+$m-default-spacing-bottom:				10px;
+$m-default-spacing-left:				15px;
+
+$t-default-spacing-top:					20px;
+$t-default-spacing-right:				30px;
+$t-default-spacing-bottom:				20px;
+$t-default-spacing-left:				30px;
+
+
+
+//== Typography
+//
+//## Font, line-height, and color for body text, headings, and more.
+
+// Font Family					
+// $font-family-base:					false;//"Helvetica Neue", Helvetica, Arial, sans-serif;
+// $font-family-light:					false;//"Helvetica Neue", Helvetica, Arial, sans-serif;
+// $font-family-semibold:				false;//"Helvetica Neue", Helvetica, Arial, sans-serif;
+// $font-family-bold:					false;//"Helvetica Neue", Helvetica, Arial, sans-serif;
+
+// Font Weight
+// $font-weight-light:					100;
+// $font-weight-normal:					normal; 		
+// $font-weight-semibold:				500;
+// $font-weight-bold:					bold; 
+
+// $font-weight-headers:				$font-weight-normal;
+
+// Font Size
+// $font-size-large:       				ceil($font-size-base * 1.25); // ~18px
+// $font-size-small:        			ceil($font-size-base * 0.85); // ~12px
+
+// Font Size Header
+// $font-size-h1:          				31px;
+// $font-size-h2:          				26px;
+// $font-size-h3:          				20px;
+// $font-size-h4:          				16px;
+// $font-size-h5:          				$font-size-base;
+// $font-size-h6:          				11px;
+
+// Line Height
+// $line-height-base:      				1.428571429;
+
+
+
+//== Color variations
+//
+//## 
+// Text Colors
+// $color-text-black-secondary:         lighten($color-text-black, 40%);
+// $color-text-black-disabled:			rgba($color-text-black, .26);
+// $color-text-black-hint:              rgba($color-text-black, .26);
+
+// $color-text-white-secondary:         rgba($color-text-white, .7);
+// $color-text-white-disabled:          rgba($color-text-white,	.3);
+// $color-text-white-hint:              rgba($color-text-white,	.3);
+
+// Color Variations
+// $color-default-darker: 				shade($color-default,40);	
+// $color-default-dark: 				shade($color-default,26);	
+// $color-default-light: 				tint($color-default,40);	
+// $color-default-lighter: 				tint($color-default,80);	
+
+// $color-inverse-darker: 				shade($color-inverse,40);	
+// $color-inverse-dark: 				shade($color-inverse,26);	
+// $color-inverse-light: 				tint($color-inverse,40);	
+// $color-inverse-lighter: 				tint($color-inverse,80);	
+
+// $color-primary-darker: 				shade($color-primary,40);	
+// $color-primary-dark: 				shade($color-primary,26);	
+// $color-primary-light: 				tint($color-primary,40);	
+// $color-primary-lighter: 				tint($color-primary,80);	
+
+// $color-info-darker: 					shade($color-info,40);	
+// $color-info-dark: 					shade($color-info,26);	
+// $color-info-light: 					tint($color-info,40);	
+// $color-info-lighter: 				tint($color-info,80);	
+
+// $color-success-darker: 				shade($color-success,40);	
+// $color-success-dark: 				shade($color-success,26);	
+// $color-success-light: 				tint($color-success,40);	
+// $color-success-lighter: 				tint($color-success,80);	
+
+// $color-warning-darker: 				shade($color-warning,40);	
+// $color-warning-dark: 				shade($color-warning,26);	
+// $color-warning-light: 				tint($color-warning,40);	
+// $color-warning-lighter: 				tint($color-warning,80);	
+
+// $color-danger-darker: 				shade($color-danger,40);	
+// $color-danger-dark: 					shade($color-danger,26);	
+// $color-danger-light: 				tint($color-danger,40);	
+// $color-danger-lighter: 				tint($color-danger,80);
+
+
+
+//== Forms
+//
+//##
+
+// Label  
+// $color-label:						$color-text-black-secondary;		
+// $font-weight-label:					$font-weight-normal;			 
+
+// Input Color
+// $color-input-bg:						#FFF;
+// $color-input-bg-focus:				#FFF;
+// $color-input-bg-disabled:			$gray-lighter;
+// $color-input-text: 					$font-color-base;
+// $color-input-text-focus:				$color-input-text;
+// $color-input-text-disabled:			$color-input-text;
+// $color-input-placeholder-text:		$gray-light;
+// $color-input-border:					$color-border-default;
+// $color-input-border-focus:			$color-primary;	
+
+// Input Height
+// $input-height:						33px;
+
+
+
+//== Alerts
+//
+//##
+
+// Background Color
+// $color-alert-bg-info: 				$color-info-lighter;
+// $color-alert-bg-success: 			$color-success-lighter;
+// $color-alert-bg-warning: 			$color-warning-lighter;
+// $color-alert-bg-danger: 				$color-danger-lighter;
+
+// Text Color
+// $color-alert-text-info: 				$color-info-darker;
+// $color-alert-text-success: 			$color-success-darker;
+// $color-alert-text-warning: 			$color-warning-darker;
+// $color-alert-text-danger: 			$color-danger-darker;
+
+// Border Color
+// $color-alert-border-info: 			$color-info-dark;
+// $color-alert-border-success: 		$color-success-dark;
+// $color-alert-border-warning: 		$color-warning-dark;
+// $color-alert-border-danger: 			$color-danger-dark;
+
+
+
+//== Buttons
+//
+//## For each buttons, define text, background and border color.
+
+// Background Color
+// $color-btn-bg-default: 				$color-default;	
+// $color-btn-bg-inverse: 				$color-inverse;	
+// $color-btn-bg-primary: 				$color-primary; 
+// $color-btn-bg-info: 					$color-info; 
+// $color-btn-bg-success: 				$color-success; 
+// $color-btn-bg-warning: 				$color-warning;
+// $color-btn-bg-danger: 				$color-danger; 	
+// $color-btn-bg-white: 				#FFF; 
+
+// Text Color
+// $color-btn-text-default: 			$color-text-black;
+// $color-btn-text-inverse: 			#FFF;
+// $color-btn-text-primary: 			#FFF;
+// $color-btn-text-info: 				#FFF;
+// $color-btn-text-success: 			#FFF;
+// $color-btn-text-warning: 			#FFF;
+// $color-btn-text-danger: 				#FFF;
+// $color-btn-text-white: 				$color-text-black; 
+
+// Border Color
+// $color-btn-border-default: 			$color-default;
+// $color-btn-border-inverse: 			$color-inverse;
+// $color-btn-border-primary: 			$color-primary;
+// $color-btn-border-info: 				$color-info;
+// $color-btn-border-success: 			$color-success;
+// $color-btn-border-warning: 			$color-warning;
+// $color-btn-border-danger: 			$color-danger;
+// $color-btn-border-white: 			#FFF; 
+
+
+
+//== Dataview
+//
+//##
+
+// // Colors
+// $color-dataview-controls-bg: 		transparent;
+// $color-dataview-controls-border: 	$color-border-default;
+// $color-dataview-emptymessage-bg:		$color-layout-bg;
+// $color-dataview-emptymessage-text:	$font-color-base;
+
+
+
+//== Grids
+//
+//##
+
+// Paging Color
+// $color-grid-paging-bg:				transparent;
+// $color-grid-paging-bg-hover:			transparent;
+// $color-grid-paging-border:			transparent;
+// $color-grid-paging-border-hover:		transparent;
+// $color-grid-paging-text: 			$gray-light;
+// $color-grid-paging-text-hover:		$color-primary;
+
+// Border Color
+// $color-grid-border: 					$color-border-default;
+
+// Background Color
+// $color-grid-bg:						#FFF;
+// $color-grid-bg-header:				transparent; // Grid Headers
+// $color-grid-bg-hover: 				shade($color-primary-lighter,3);
+// $color-grid-bg-selected: 			$color-primary;	
+// $color-grid-bg-selected-hover: 		shade($color-primary-lighter,3);
+// $color-grid-text-selected:			$font-color-base;
+
+// Striped 
+// $color-grid-bg-striped: 				lighten($color-grid-border,5);
+
+// Footer
+// $color-grid-footer-bg: 				$gray-primary;
+
+
+
+//== Groupbox
+//
+//##
+
+// Background Color
+// $color-groupbox-default: 			$color-default;
+// $color-groupbox-inverse: 			$color-inverse; 
+// $color-groupbox-primary: 			$color-primary; 
+// $color-groupbox-info: 				$color-info;
+// $color-groupbox-success: 			$color-success; 
+// $color-groupbox-warning: 			$color-warning;
+// $color-groupbox-danger: 				$color-danger; 	
+// $color-groupbox-white: 				#FFF;
+
+// Text Color
+// $color-groupbox-text-default: 		$color-text-black;
+// $color-groupbox-text-inverse: 		$color-text-white;
+// $color-groupbox-text-primary: 		$color-text-white;
+// $color-groupbox-text-info: 			$color-text-white;
+// $color-groupbox-text-success: 		$color-text-white;
+// $color-groupbox-text-warning: 		$color-text-white;
+// $color-groupbox-text-danger: 		$color-text-white;
+// $color-groupbox-text-white: 			$font-color-base;
+
+
+
+//== Callout (groupbox) Colors
+//
+//##
+
+// Text and Border Color
+// $color-callout-info:					$color-info;
+// $color-callout-success:				$color-success;
+// $color-callout-warning:				$color-warning;
+// $color-callout-danger:				$color-danger;
+
+// Background Color
+// $color-callout-bg-info:				$color-info-lighter; 
+// $color-callout-bg-success:			$color-success-lighter; 
+// $color-callout-bg-warning:			$color-warning-lighter; 
+// $color-callout-bg-danger:			$color-danger-lighter;
+
+
+
+//== Labels
+//
+//##
+
+// Background Color
+// $color-label-bg-default: 			$color-default;
+// $color-label-bg-primary: 			$color-primary; 
+// $color-label-bg-info: 				$color-info; 
+// $color-label-bg-success: 			$color-success; 
+// $color-label-bg-warning: 			$color-warning;
+// $color-label-bg-danger: 				$color-danger; 	
+
+// Text Color
+// $color-label-text-default: 			$color-text-black;
+// $color-label-text-primary: 			#FFF;
+// $color-label-text-info: 				#FFF;
+// $color-label-text-success: 			#FFF;
+// $color-label-text-warning: 			#FFF;
+// $color-label-text-danger: 			#FFF;
+
+// Border Color
+// $color-label-border-default: 		$color-default;
+// $color-label-border-primary: 		$color-primary;
+// $color-label-border-info: 			$color-info;
+// $color-label-border-success: 		$color-success;
+// $color-label-border-warning: 		$color-warning;
+// $color-label-border-danger: 			$color-danger;
+
+
+
+
+
+//== Navs
+//
+//##
+
+// Navigation Text Sizes
+// $font-navsidebar-size:				$font-size-base;
+// $font-navtopbar-size:				$font-size-base;
+// $font-navsidebar-sub-size:			$font-size-small;
+// $font-navtopbar-sub-size:			$font-size-small;
+
+// $font-navsidebar-glyph-size:			1.2em;
+// $font-navtopbar-glyph-size:			1.2em;
+
+// Navigation sidebar
+// $color-navsidebar-bg: 				$color-sidebar-bg;
+// $color-navsidebar-bg-hover:			lighten($color-navsidebar-bg, 4);
+// $color-navsidebar-bg-active:         lighten($color-navsidebar-bg, 8);
+// $color-navsidebar-text:				$color-text-white;
+// $color-navsidebar-text-hover:		$color-primary;
+// $color-navsidebar-text-active:		$color-primary;
+
+// $color-navsidebar-sub-bg: 			darken($color-navsidebar-bg, 4);
+// $color-navsidebar-sub-bg-hover:		$color-navsidebar-sub-bg;
+// $color-navsidebar-sub-bg-active:		$color-navsidebar-sub-bg;
+// $color-navsidebar-sub-text:			#AAA;
+// $color-navsidebar-sub-text-hover:	$color-primary;
+// $color-navsidebar-sub-text-active:	$color-primary;
+
+// $color-navsidebar-border:			$color-navsidebar-bg-hover;
+
+// Navigation topbar
+// $color-navtopbar-bg: 				$color-topbar-bg;
+// $color-navtopbar-bg-hover:			darken($color-navtopbar-bg, 4);
+// $color-navtopbar-bg-active:          darken($color-navtopbar-bg, 8);
+// $color-navtopbar-text:				$color-text-black;
+// $color-navtopbar-text-hover:			$color-primary;
+// $color-navtopbar-text-active:		$color-primary;
+
+// $color-navtopbar-sub-bg: 			lighten($color-navtopbar-bg, 4);
+// $color-navtopbar-sub-bg-hover: 		$color-navtopbar-sub-bg;
+// $color-navtopbar-sub-bg-active: 		$color-navtopbar-sub-bg;
+// $color-navtopbar-sub-text:			$color-text-black-secondary;
+// $color-navtopbar-sub-text-hover:		$color-primary;
+// $color-navtopbar-sub-text-active:	$color-primary;
+
+// $color-navtopbar-border:				$color-navtopbar-bg-hover;
+
+
+
+
+
+//== Tabs
+//
+//##
+
+// Text Color
+// $color-tab-text-active: 				$color-text-black;
+// $color-tab-text: 					$color-text-black-secondary;
+// $color-tab-lined-text-active:		$color-primary;
+
+// Border Color
+// $color-tab-border:					$color-border-default;	
+// $color-tab-lined-border:				$color-primary;	
+
+// Background Color
+// $color-tab-bg-hover: 				lighten($color-tab-border,5);
+// $color-tab-bg-active:				$color-primary;
+
+
+
+
+
+//== Modals
+//
+//##
+
+// Background Color
+// $color-modal-header-bg: 				transparent;
+
+// Border Color
+// $color-modal-header-border: 			$color-border-default;
+
+// Text Color
+// $color-modal-header-text: 			$font-color-base;
+
+
+
+
+//== Layouts
+//
+//##
+
+// Scroll container / layout container default padding (if you are using bootstrap containers use a minimal of 15px)
+// $padding-layoutcontainer-base:		0px; 
+// $m-padding-layoutcontainer-base:		0px;
+// $t-padding-layoutcontainer-base:		0px; 
+
+// Combined spacing 
+// $default-spacing:					$default-spacing-top $default-spacing-right $default-spacing-bottom $default-spacing-left;
+// $m-default-spacing:					$m-default-spacing-top $m-default-spacing-right $m-default-spacing-bottom $m-default-spacing-left;
+// $t-default-spacing:					$t-default-spacing-top $t-default-spacing-right $t-default-spacing-bottom $t-default-spacing-left;
+
+
+
+
+//== Tables
+//
+//##
+
+// Default Table Spacing
+// $padding-table-cell-top:				8px;					
+// $padding-table-cell-bottom:			8px;					
+// $padding-table-cell-left:			8px;					
+// $padding-table-cell-right:			8px;			
+
+
+
+
+
+// //== Media queries breakpoints
+// //
+// //## Define the breakpoints at which your layout will change, adapting to different screen sizes.
+
+// // Extra small screen / phone Deprecated `$screen-xs` as of v3.0.1
+// $screen-xs:                  480px;
+// // Deprecated `$screen-xs-min` as of v3.2.0
+// $screen-xs-min:              $screen-xs;
+// // Deprecated `$screen-phone` as of v3.0.1
+// $screen-phone:               $screen-xs-min;
+
+// // Small screen / tablet Deprecated `$screen-sm` as of v3.0.1
+// $screen-sm:                  768px;
+// $screen-sm-min:              $screen-sm;
+// // Deprecated `$screen-tablet` as of v3.0.1
+// $screen-tablet:              $screen-sm-min;
+
+// // Medium screen / desktop Deprecated `$screen-md` as of v3.0.1
+// $screen-md:                  992px;
+// $screen-md-min:              $screen-md;
+// // Deprecated `$screen-desktop` as of v3.0.1
+// $screen-desktop:             $screen-md-min;
+
+// // Large screen / wide desktop Deprecated `$screen-lg` as of v3.0.1
+// $screen-lg:                  1200px;
+// $screen-lg-min:              $screen-lg;
+// // Deprecated `$screen-lg-desktop` as of v3.0.1
+// $screen-lg-desktop:          $screen-lg-min;
+
+// // So media queries don't overlap when required, provide a maximum
+// $screen-xs-max:              ($screen-sm-min - 1);
+// $screen-sm-max:              ($screen-md-min - 1);
+// $screen-md-max:              ($screen-lg-min - 1);
+
+
+
+
+
+//== Mobile
+//
+//##				
+
+// Text Color
+// $m-color-header-text: 				$font-color-base;
+
+// Header Link Color
+// $m-color-header-link:				$color-link;
+
+
+
+//== Mobile Tabs
+//
+//##
+
+// Text Color
+// $m-color-tab-text: 					#FFF;
+// $m-color-tab-text-active: 			#000;
+
+// Background Color
+// $m-color-tab-bg:						$color-primary;
+// $m-color-tab-bg-hover: 				lighten($color-tab-border,5);
+// $m-color-tab-bg-active:				darken($m-color-tab-bg, 15);	
+
+// Border Color
+// $m-color-tab-border:					darken($m-color-tab-bg, 15);
+// $m-color-tab-border-active:			darken($m-color-tab-bg, 15);

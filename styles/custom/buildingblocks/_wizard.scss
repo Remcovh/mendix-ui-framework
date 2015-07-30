@@ -1,0 +1,44 @@
+/*
+* Mendix Documentation
+* Special styles for presenting profilecard building block
+*/
+
+
+/*
+* Wizard
+*
+* Styling for Wizard (Steps/Numbers)
+*/
+
+.wizard {
+
+	/* Wizard line between steps */
+	&:before {
+
+	}
+}
+.wizard-step {
+	
+}
+.wizard-step-number {
+
+}
+.wizard-step-number-active {
+
+}
+.wizard-step-number-visited {
+
+}
+.wizard-step-title {
+
+}
+
+/* Phone Specific Styling */
+.profile-phone .wizard {
+	&:before {
+		
+	}
+	.wizard-step-number {
+
+	}
+}

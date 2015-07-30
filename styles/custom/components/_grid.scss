@@ -1,0 +1,52 @@
+/*
+* Mendix Documentation
+* Special styles for presenting components
+*/
+
+
+/*
+* Grid
+*
+* Default Mendix Grid
+*/
+.mx-grid {
+
+	.mx-grid-controlbar {
+
+		/* Paging */
+		.mx-grid-pagingbar {
+
+			/* Buttons */
+			.mx-button {
+
+			&:hover {
+
+			}
+		}
+
+		/* Text Paging .. to .. to .. */
+		.mx-grid-paging-status {
+
+		}
+	}
+
+	.mx-grid-searchbar {
+		.mx-grid-search-item {
+			/* Label search item */
+			.mx-grid-search-label {
+
+				}
+			}
+			/* Input search item */
+			.mx-grid-search-input {
+				.form-control {
+
+				}
+				/* Buttons search item */
+				.mx-button {
+
+				}
+			}
+		}
+	}
+}

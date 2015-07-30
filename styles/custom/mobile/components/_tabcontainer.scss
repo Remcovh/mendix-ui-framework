@@ -1,0 +1,40 @@
+/*
+* Mendix Documentation
+* Special styles for presenting mobile components
+*/
+
+
+/*
+* Tabcontainer
+*
+* Default Mendix Tabcontainer for Mobile 
+*/
+.profile-phone,
+.profile-tablet {
+	.mx-tabcontainer-tabs {
+
+		li {
+			a {
+
+				&:hover,
+				&:focus,
+				&.active {
+	
+				}
+			}
+			&.active a {
+
+  				&:after,
+  				&:before {
+  					
+  				}
+  				&:after {
+  					
+  				}
+  				&:before {
+  					
+  				}
+			}
+		}
+	}
+}
