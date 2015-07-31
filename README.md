@@ -1,9 +1,9 @@
-mendix-UI-Framework
+Mendix UI Framework
 ========================
 
-This is the default SCSS framework the Mendix UX team created.
+This is the SCSS framework that is the basis for the Mendix UI Framework, introduced with the [Mendix DX Release](https://www.mendix.com/blog/drive-digital-innovation-with-the-mendix-dx-release/).
 
-Preview: [Mendix UI Framework](https://ux.mendix.com/)
+You can explore all the features and see them in actions via the [Mendix UI Framework Showcase App](https://ux.mendix.com/)
 
 ## Features
 
