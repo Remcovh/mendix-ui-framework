@@ -6,3 +6,9 @@
 
 # Windows File
 .thumb
+
+# Doc / Demo Files
+styles/demo.css
+styles/demo.scss
+styles/docs.css
+styles/docs.scss
