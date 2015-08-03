@@ -1,0 +1,8 @@
+# SASS cache
+.sass-cache
+
+# Mac OS file
+.DS_Store
+
+# Windows File
+.thumb
