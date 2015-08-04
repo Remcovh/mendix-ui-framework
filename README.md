@@ -18,8 +18,6 @@ Want to add or change styling? Use the files located in the custom directory.
 
 ## How To Use SCSS
 
-Want to use SCSS and use all the variables and mixins? Remove the stylesheet url lib.css in the index.html to prevent double loading the css in your application. The libary will be included in the custom.scss file which you can extend to create your scss framework.
-
 Mendix Framework uses SASS and Compass, which rely on Ruby. However you can install [Scout](http://mhs.github.io/scout-app/) to run Sass and Compass in a self-contained Ruby environment, letting you effortlessly manage all of your Sass projects with a handful of clicks. 
 
 View the full documentation [Here](https://ux.mendix.com/index.html?profile=desktop#!/MyFirstModule/How_to_customize)
