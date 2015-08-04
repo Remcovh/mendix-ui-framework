@@ -1,0 +1,3 @@
+[submodule "styles/lib"]
+	path = styles/lib
+	url = https://github.com/mendix/Mendix-UI-Framework-Lib
