@@ -4394,6 +4394,9 @@ body .mx-header .mx-header-right {
 body .mx-header .mx-link {
   color: #59c2e6;
 }
+body .mx-header .mx-sidebartoggle {
+  font-size: 24px;
+}
 body .mx-header .mx-title {
   margin: 0;
   color: black;
