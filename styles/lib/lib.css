@@ -4396,6 +4396,7 @@ body .mx-header .mx-link {
 }
 body .mx-header .mx-sidebartoggle {
   font-size: 24px;
+  margin-top: 5px;
 }
 body .mx-header .mx-title {
   margin: 0;
